@@ -51,9 +51,9 @@ begin
                             ) then
                           pixels <= x"F0";
                     
-                    -- If the condition is not satisfied then the output colour will be black.
+                    -- If the condition is not satisfied then the output colour will be white.
                         else 
-                          pixels <= x"00";
+                          pixels <= x"FF";
                         end if;
               end if;
            end process;
